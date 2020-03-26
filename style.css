@@ -1,3 +1,11 @@
+/*
+    RESIZING WORKS FOR MOST PHONES!
+
+    IPADS DON'T WORK
+
+    PHONES SMALLER THAN 410 X 700 DONT WORK
+*/
+
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
 * {
@@ -15,8 +23,8 @@ body {
 
 #fullVideo {
     left: 50%;
-    min-height: 100vh;
-    min-width: 100vw;
+    min-height: 100%;
+    min-width: 100%;
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -29,14 +37,11 @@ body {
 
 .arrow {
     position: absolute;
-    display: inline-block;
-    bottom: 0;
-    width: 100%;
+    min-width: 100%;
     color: #ffff;
-    text-align: left;
+    text-align: center;
     padding-bottom: 20px;
     background-color: rgba(0,0,0,0);
-    text-align: center;
     font-size: 25px;
     animation: bobbingArrow 1.25s infinite;
 }
@@ -56,6 +61,7 @@ body {
 #arrow {
     text-decoration: none;
     color: #ffff;
+    margin: 0;
     text-align: center;
 }
 
@@ -65,5 +71,6 @@ body {
     color: #ffff;
     background-color: rgba(0,0,0,0);
     text-align: center;
-    top: 130vh;
+    top: 63rem;
+    margin: 0;
 }
