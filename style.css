@@ -1,20 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
 * {
-    scroll-behavior: smooth; 
-    background-color: #121212;
+    scroll-behavior: smooth;
     font-family: 'Poppins', 'sans-serif';
 }
 
 body {
     overflow-x: hidden;
+    background-color: #121212;
     margin: 0;
+    padding: 0;
 }
 
 #fullVideo {
     left: 50%;
-    min-height: 100%;
-    min-width: 100%;
+    min-height: 100vh;
+    min-width: 100vw;
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -23,6 +24,7 @@ body {
 
 .arrow {
     position: absolute;
+    display: inline-block;
     bottom: 0;
     color: #ffff;
     width: 100%;
@@ -52,7 +54,10 @@ body {
     text-align: center;
 }
 
-#below {
-    margin-top: 60rem;
-    color: #ededed;
+
+.second-sector {
+    position: absolute;
+    color: #ffff;
+    text-align: center;
+    top: 120vh;
 }
