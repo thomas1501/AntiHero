@@ -1,9 +1,13 @@
 /*
-    RESIZING WORKS FOR MOST PHONES!
+RESIZING WORKS FOR MOST PHONES!
 
-    IPADS DON'T WORK
+IPADS DON'T WORK
 
-    PHONES SMALLER THAN 410 X 700 DONT WORK
+PHONES SMALLER THAN 410 X 700 DONT WORK
+
+
+MAKE A CLICK TO COPY ON THE DISCORD TAG
+DO -MOZ ANIMATIONS
 */
 
 @import url('https://fonts.googleapis.com/css?family=Poppins');
@@ -70,7 +74,43 @@ body {
     position: absolute;
     color: #ffff;
     background-color: rgba(0,0,0,0);
-    text-align: center;
     top: 63rem;
     margin: 0;
 }
+
+.order-now {
+    text-transform: uppercase;
+    font-size: 30px;
+    float: left;
+    margin-left: 27rem;
+}
+
+bold {
+    font-weight: 600;
+}
+
+img {
+    position: absolute;
+}
+
+.m-20 {
+    text-align: center;
+    margin-left: 40rem;
+    margin-top: 12rem;
+}
+
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* MAKES video 100%
+.cont {
+    min-height: 100vh; 
+    display: block;
+    position: relative;
+    padding-bottom: 100px;
+}
+*/
