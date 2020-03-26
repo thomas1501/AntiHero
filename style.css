@@ -3,6 +3,7 @@
 * {
     scroll-behavior: smooth;
     font-family: 'Poppins', 'sans-serif';
+
 }
 
 body {
@@ -22,13 +23,18 @@ body {
     z-index: -1;
 }
 
+.parentDiv {
+    text-align: center;
+}
+
 .arrow {
     position: absolute;
     display: inline-block;
     bottom: 0;
-    color: #ffff;
     width: 100%;
-    padding: 20px;
+    color: #ffff;
+    text-align: left;
+    padding-bottom: 20px;
     background-color: rgba(0,0,0,0);
     text-align: center;
     font-size: 25px;
@@ -48,9 +54,8 @@ body {
 }
 
 #arrow {
-    color: white;
-    background-color: rgba(0,0,0,0);
     text-decoration: none;
+    color: #ffff;
     text-align: center;
 }
 
@@ -58,6 +63,7 @@ body {
 .second-sector {
     position: absolute;
     color: #ffff;
+    background-color: rgba(0,0,0,0);
     text-align: center;
-    top: 120vh;
+    top: 130vh;
 }
